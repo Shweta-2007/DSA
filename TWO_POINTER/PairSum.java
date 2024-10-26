@@ -1,5 +1,6 @@
 package TWO_POINTER;
 
+// Given an integer sorted array A and an integer k, find any pair (i, j) such that A[i] + A[j] = k, i != j.
 public class PairSum {
     public static boolean isPresent(int arr[], int k) {
         int left = 0;

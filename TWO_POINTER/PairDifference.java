@@ -1,5 +1,6 @@
 package TWO_POINTER;
 
+// Check if there exists a pair with difference k
 public class PairDifference {
     public static boolean isPresent(int arr[], int k) {
         int left = 0;
